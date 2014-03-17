@@ -1,0 +1,48 @@
+html {
+	background-color: #434A54;
+}
+h1 {
+	font-family: Raleway;
+}
+
+#whitebg {
+	margin-top: 25%; /*Delete this to push the content to the top */
+	background-color: white;
+	margin-bottom: 10px;
+}
+#darkbg {
+	background-color: #434A54;
+	width: 100%;
+}
+.button {
+	background: none;
+	border: 2px solid white;
+	color: #f9f8f4;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	border-radius: 3px;
+	padding: 0.45em 1.15em 0.45em 1.25em;
+	height: 45px;
+	font-weight: bold;
+	transition:         all 0.3s ease;
+	-webkit-transition: all 0.3s ease; 
+	-moz-transition:    all 0.3s ease;
+	-o-transition:      all 0.3s ease;
+	-webkit-font-smoothing: antialiased;
+}
+.button:hover {
+	color: #51493d;
+	background-color: #f9f8f4;
+}
+#submit {
+	width: 100px;
+}
+#site {
+	height: 45px;
+	border-radius: 3px;
+	box-shadow: none;
+	font-family: Raleway;
+}
+.tile:hover {
+background-color: #e1e1e1;
+}
